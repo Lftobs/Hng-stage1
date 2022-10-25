@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #101828;
+  font-family: 'Inter'
+  /*border: 1px solid red;*/
+}
+
+
+header {
+  display: flex;
+  width: 100%;
+  padding-inline: 1rem ;
+  padding-top: 10%;
+  margin-bottom: 3rem;
+}
+
+.profile {
+  width: 90%;
+  display: grid;
+  place-items: center;
+  
+}
+
+.profile img {
+  margin-left: 7%;
+  margin-bottom: 1rem;
+}
+
+.text {
+  margin-left: 7%;
+  font-weight: 600;
+}
+
+.share {
+  width: 10%;
+  display: grid;
+  place-items: center;
+  
+}
+
+.share img {
+  margin-top: -4rem;
+  width: 1.5rem;
+  aspect-ratio: 1/1;
+  border-radius: 1rem;
+  
+  
+}
+
+.share img:hover {
+  border: 2px dashed #98a2b3;
+  background: transparent;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+a {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  margin-bottom: 1.2rem;
+}
+
+button {
+  width: 90%;
+  height: 3rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  background: #eaecf0;
+  /**/
+}
+
+button:hover {
+  background: transparent;
+  border: 1px solid #98a2b3;
+}
+
+.socials {
+  display: flex;
+  gap: 3rem;
+  margin-top: 1.5rem;
+}
+
+.socials img {
+  height: 2.5rem;
+  aspect-ratio: 1 / 1;
+}
+
+footer {
+  margin-top: 4.2rem;
+  margin-bottom: 3rem;
+}
+
+.foot {
+  display: grid;
+  color: #667085;
+  font-weight: 500;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  place-items: center;
+}
+
+.slack {
+  display: none;
+}
+
+@media(min-width:700px){
+  .text, .profile img {
+      margin-left: 12%;
+  }
+  .foot {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
