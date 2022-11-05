@@ -29,7 +29,7 @@ function Contact(props) {
                     <label for={props.id[3]}>Message</label>
                     <textarea placeholder="Send a message and I'll reply as soon as possible..."id={props.id[3]} required></textarea>
                     <span className="err-msg">
-                        Please enter a message http://tobs.pythonanywhere.com/
+                        Please enter a message 
                     </span>
                     <div className="checkbx">     
                         <input type="checkbox" name="" id="checkbox" required />
