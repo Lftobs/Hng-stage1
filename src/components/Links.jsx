@@ -17,7 +17,7 @@ function Links(props) {
         
         <a href="https://books.zuri.team/design-rules" id={props.id[4]}><button>Design Books</button></a>
         
-        <a id={props.id[5]} ><Link to="/contact"><button>Contact Me</button></Link></a>
+        <Link to="/contact" id={props.id[5]} ><button>Contact Me</button></Link>
         
         <div className="socials">
             <img src="/img/slack.svg" alt="slack" />
