@@ -27,9 +27,9 @@ function Contact(props) {
                     <input type="email" name="" id={props.id[2]} placeholder="yourname@email.com" required />
                         
                     <label for={props.id[3]}>Message</label>
-                    <textarea placeholder="Send a message and I'll reply as soon as possible..."id={props.id[3]}pattern="[a-zA-Z]+"  required></textarea>
+                    <textarea placeholder="Send a message and I'll reply as soon as possible..."id={props.id[3]} required></textarea>
                     <span className="err-msg">
-                        Please enter a message 
+                        Please enter a message http://tobs.pythonanywhere.com/
                     </span>
                     <div className="checkbx">     
                         <input type="checkbox" name="" id="checkbox" required />
